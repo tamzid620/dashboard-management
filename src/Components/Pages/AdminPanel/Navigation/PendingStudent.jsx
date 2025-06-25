@@ -127,10 +127,10 @@ const PendingStudent = () => {
       ) : (
         <Box sx={{ display: "flex" }}>
           <AdminPanel />
-          <div className="w-full">
+          <div className="w-full ">
             <SearchPanel />
             {/* Pending Student section  */}
-            <div className="mt-20 mx-[10px] ">
+            <div className="mt-20 mx-[10px] bg-white text-black h-screen">
               {/* AdminStudentInfo section  */}
               <h1 className=" mt-8 text-3xl font-semibold uppercase text-black flex justify-center ">
                 Pending Student
@@ -143,11 +143,11 @@ const PendingStudent = () => {
                 <div className="flex justify-between items-center">
                   {/* search input  */}
                   <div className="form-control ms-3 my-3">
-                    <div className="input-group">
+                    <div className="input-group ">
                       <input
                         type="text"
                         placeholder="Search…"
-                        className="input input-bordered"
+                        className="input input-bordered bg-white text-black border border-black"
                       />
                       <button className="btn btn-square">
                         <svg
@@ -168,9 +168,9 @@ const PendingStudent = () => {
                     </div>
                   </div>
                 </div>
-                <table className="table table-lg table-pin-rows table-pin-cols border">
+                <table className="table table-lg table-pin-rows table-pin-cols border bg-white text-black">
                   {/* head */}
-                  <thead>
+                  <thead className="bg-black text-white">
                     <tr>
                       <th>Index</th>
                       <th>Picture</th>
@@ -225,8 +225,8 @@ const PendingStudent = () => {
                 </table>
               </div>
               {/* pagination here  */}
-              <div className="flex justify-center">
-                <div className="join my-10">
+              <div className="flex justify-center ">
+                <div className="join my-10 ">
                   <button className="join-item btn">1</button>
                   <button className="join-item btn">2</button>
                   <button className="join-item btn btn-disabled">...</button>

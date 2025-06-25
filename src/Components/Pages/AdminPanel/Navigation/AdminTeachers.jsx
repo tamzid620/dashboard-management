@@ -114,7 +114,7 @@ const AdminTeachers = () => {
         <div className="w-full">
           <SearchPanel />
           {/* Admin Teacher section  */}
-          <div className="mt-20 mx-[10px]">
+          <div className="mt-20 mx-[10px] bg-white text-black h-screen">
             {/* AdminTeacherInfo section  */}
             <h1 className="mt-8 text-3xl font-semibold uppercase text-black flex justify-center ">
               All Teachers
@@ -132,7 +132,7 @@ const AdminTeachers = () => {
                     <input
                       type="text"
                       placeholder="Search…"
-                      className="input input-bordered"
+                      className="input input-bordered bg-white text-black border border-black"
                     />
                     <button className="btn btn-square">
                       <svg
@@ -164,7 +164,7 @@ const AdminTeachers = () => {
               {/* tabel section  */}
               <table className="table ">
                 {/* head */}
-                <thead>
+                <thead className="bg-white text-black">
                   <tr>
                     <th>Image</th>
                     <th>Name</th>

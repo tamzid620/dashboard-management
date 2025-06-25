@@ -112,7 +112,7 @@ const AllStudent = () => {
                       <input
                         type="text"
                         placeholder="Search…"
-                        className="input input-bordered"
+                        className="input input-bordered bg-white text-black border border-black"
                       />
                       <button className="btn btn-square">
                         <svg
@@ -148,7 +148,7 @@ const AllStudent = () => {
                 </div>
                 <table className="table table-lg table-pin-rows table-pin-cols border">
                   {/* head */}
-                  <thead>
+                  <thead className="bg-black text-white">
                     <tr>
                       <th>Index</th>
                       <th>Picture</th>

@@ -89,7 +89,7 @@ const AdminEmployees = () => {
         <div className="w-full">
           <SearchPanel />
           {/* All Student section  */}
-          <div className="mt-20 mx-[10px]">
+          <div className="mt-20 mx-[10px] bg-white text-black h-screen">
             {/* AdminemployeeInfo section  */}
             <h1 className="mt-8 text-3xl font-semibold uppercase text-black flex justify-center ">
               All employees
@@ -106,7 +106,7 @@ const AdminEmployees = () => {
                     <input
                       type="text"
                       placeholder="Search…"
-                      className="input input-bordered"
+                      className="input input-bordered bg-white text-black"
                     />
                     <button className="btn btn-square">
                       <svg
@@ -139,7 +139,7 @@ const AdminEmployees = () => {
               {/* tabel section  */}
               <table className="table ">
                 {/* head */}
-                <thead>
+                <thead className="bg-white text-black">
                   <tr>
                     <th>Image</th>
                     <th>Name</th>

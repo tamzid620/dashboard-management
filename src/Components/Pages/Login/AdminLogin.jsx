@@ -122,13 +122,13 @@ function AdminLogin() {
           {/* Email Section  */}
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-black text-sm font-bold mb-2"
               htmlFor="username"
             >
               Enter Email
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 bg-white text-black leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
               name="email"
@@ -141,7 +141,7 @@ function AdminLogin() {
           {/* password section  */}
           <div className="mb-6">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-black text-sm font-bold mb-2"
               htmlFor="password"
             >
               Password
@@ -183,7 +183,7 @@ function AdminLogin() {
             <button
               className="text-white bg-gradient-to-t from-blue-500 to-blue-300
               hover:from-blue-300 hover:to-blue-500
-              uppercase font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full "
+              uppercase font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full border border-gray-500 shadow-md"
               type="submit"
             >
               Login
@@ -193,7 +193,7 @@ function AdminLogin() {
 
           <button className=" text-white mt-5 bg-gradient-to-b from-blue-500 to-blue-300
               hover:from-blue-300 hover:to-blue-500
-              uppercase text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline">
+              uppercase text-xs font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline border border-gray-500 shadow-md">
             <Link className="flex justify-center" to="/">
               return home
             </Link> 

@@ -135,7 +135,7 @@ const AdminEmployeesAdd = () => {
           <div className="w-full">
             <SearchPanel />
             {/* All Student section  */}
-            <div className="mt-20 mx-[10px]">
+            <div className="mt-20 mx-[10px] bg-white text-black h-screen">
               {/* AdminStudentInfo section  */}
               <h1 className="mt-8 text-3xl font-semibold uppercase text-black flex justify-center ">
                 add Employee
@@ -200,7 +200,7 @@ const AdminEmployeesAdd = () => {
                     <label htmlFor="phoneNo">Phone Number:</label>
                     <input
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                      type="number"
+                      type="text"
                       required
                       name="phoneNo"
                       id="phoneNo"
@@ -229,7 +229,7 @@ const AdminEmployeesAdd = () => {
                 <div>
                   <label htmlFor="file">Picture: </label> <br />
                   <input
-                    className="file-input file-input-bordered file-input-primary w-full"
+                    className="file-input file-input-bordered file-input-primary w-full bg-white text-black"
                     type="file"
                     required
                     name="file"

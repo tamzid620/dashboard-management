@@ -152,7 +152,7 @@ const AdminTeachersEdit = () => {
         <div className="w-full">
           <SearchPanel />
           {/* Admin Teacher Add section  */}
-          <div className="mt-20 mx-[10px]">
+          <div className="mt-20 mx-[10px] bg-white text-black h-screen">
             {/* AdminStudentInfo section  */}
             <h1 className="mt-8 text-3xl font-semibold uppercase text-black flex justify-center ">
              Teachers Update 
@@ -242,7 +242,7 @@ const AdminTeachersEdit = () => {
               <div>
                 <label htmlFor="file">Picture: </label> <br />
                 <input
-                  className="file-input file-input-bordered file-input-primary w-full "
+                  className="file-input file-input-bordered file-input-primary w-full bg-white text-black"
                   type="file"
                   name="file"
                   id="file"
