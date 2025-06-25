@@ -8,6 +8,7 @@ const Layout = () => {
 
     const location = useLocation();
     const noHeaderFooter =
+        location.pathname.includes('/') ||
         location.pathname.includes('ad') ||
         location.pathname.includes('login') ||
         location.pathname.includes('signup') ||
