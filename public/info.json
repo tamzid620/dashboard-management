@@ -1,0 +1,19 @@
+{
+    "id": 1,
+    "status": "1",
+    "name": "adnan",
+    "fatherName": "Fazlul",
+    "motherName": "kamrun",
+    "birthDate": "1996-08-11",
+    "phoneNo": "+8801521222080",
+    "email": "adnan@test.com",
+    "image": "1698647453.jpg",
+    "address": null,
+    "class": null,
+    "section": null,
+    "rollNo": null,
+    "regNo": null,
+    "password": "$2y$10$ujDG5bIR/mSUZ98KXn5soOKcVD0AOg.I79T3lCE1T5SY085/KQZJC",
+    "created_at": "2023-10-30T19:30:53.000000Z",
+    "updated_at": "2023-10-30T19:30:53.000000Z"
+  }
