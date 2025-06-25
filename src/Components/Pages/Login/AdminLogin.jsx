@@ -70,7 +70,7 @@ function AdminLogin() {
           localStorage.setItem("token", res.data.token);
           localStorage.setItem("user", JSON.stringify(res.data));
           setIsLoading(false);
-          navigate("/dp");
+          navigate("/");
         } else if (res.data.status === "403") {
           Swal.fire({
             icon: "error",
