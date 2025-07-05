@@ -11,7 +11,7 @@ const EventList = () => {
     <div className="">
       <div>
         <div className=" 
-        shadow-md shadow-black bg-blue-900 rounded-xl  px-3 py-3"
+        shadow-md shadow-black bg-blue-900 rounded-md  px-3 py-3"
         >
           <div className="flex justify-between items-center mb-2 py-2">
             <div>
@@ -25,7 +25,7 @@ const EventList = () => {
           <div className="leading-10">
             <div className="lg:flex md:flex lg:justify-between md:justify-between">
               <div className="flex items-center">
-                <div className="bg-blue-600 p-3 rounded-xl me-2">
+                <div className="bg-blue-600 p-3 rounded-md me-2">
                   <HiDocumentText className="w-5 h-5 text-white" />
                 </div>
                 <div>
@@ -44,7 +44,7 @@ const EventList = () => {
 
             <div className="lg:flex md:flex lg:justify-between md:justify-between">
               <div className="flex items-center">
-                <div className="bg-green-600 p-3 rounded-xl me-2">
+                <div className="bg-green-600 p-3 rounded-md me-2">
                   <BsFillCloudArrowDownFill className="w-5 h-5 text-white" />
                 </div>
                 <div>
@@ -63,7 +63,7 @@ const EventList = () => {
 
             <div className="lg:flex md:flex lg:justify-between md:justify-between">
               <div className="flex items-center">
-                <div className="bg-blue-400 p-3 rounded-xl me-2">
+                <div className="bg-blue-400 p-3 rounded-md me-2">
                   <AiFillClockCircle className="w-5 h-5 text-white" />
                 </div>
                 <div>
@@ -80,7 +80,7 @@ const EventList = () => {
 
             <div className="lg:flex md:flex lg:justify-between md:justify-between">
               <div className="flex items-center">
-                <div className="bg-red-600 p-3 rounded-xl me-2">
+                <div className="bg-red-600 p-3 rounded-md me-2">
                   <BsFileEarmarkBarGraphFill className="w-5 h-5 text-white" />
                 </div>
                 <div>
@@ -100,7 +100,7 @@ const EventList = () => {
 
             <div className="lg:flex md:flex lg:justify-between md:justify-between">
               <div className="flex items-center">
-                <div className="bg-yellow-500 p-3 rounded-xl me-2">
+                <div className="bg-yellow-500 p-3 rounded-md me-2">
                   <BiSolidMessageAltDetail className="w-5 h-5 text-white" />
                 </div>
                 <div>

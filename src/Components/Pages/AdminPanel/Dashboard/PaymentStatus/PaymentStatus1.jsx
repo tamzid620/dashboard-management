@@ -5,14 +5,14 @@ const PaymentStatus1 = () => {
 
   return (
     <div className=" border shadow-md shadow-gray-800
-    rounded-xl overflow-x-auto bg-blue-900 mx-auto mb-16">
+    rounded-md overflow-x-auto bg-blue-900 mx-auto mb-16">
       <div
-        className=" col-12  rounded-xl p-3 b "
+        className=" col-12  rounded-md p-3 b "
         role="region"
         aria-labelledby="Cap1"
         tabIndex="0"
       >
-        <table className="table w-full rounded-xl flex items-center justify-center">
+        <table className="table w-full rounded-md flex items-center justify-center">
           <h4 className="font-semibold text-2xl text-white mb-5">
             Payment Status
           </h4>

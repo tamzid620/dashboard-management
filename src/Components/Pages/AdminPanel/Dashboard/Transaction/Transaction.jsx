@@ -27,7 +27,7 @@ const options = {
       breakpoint: 2600,
       options: {
         chart: {
-          width: 280,
+          width: 290,
         },
       },
     },
@@ -48,7 +48,7 @@ const Transaction = () => {
       <div className="
       bg-blue-900 py-10
       w-full
-        shadow-md shadow-black rounded-xl">
+        shadow-md shadow-black rounded-md">
         <div className="mb-3 justify-between gap-4 sm:flex lg:flex md:flex">
           <div>
             <h5 className="ms-5 text-xl font-semibold  text-white">
@@ -92,9 +92,10 @@ const Transaction = () => {
         <div className="mt-10 mb-2 ">
           <div
             id="chartThree"
-            className=" mx-auto flex justify-center "
+            className=" mx-auto flex justify-center text-white"
           >
             <ReactApexChart
+         
               options={options}
               series={[65, 34, 12, 56]}
               type="donut"

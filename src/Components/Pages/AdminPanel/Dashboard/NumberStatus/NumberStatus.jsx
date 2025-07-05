@@ -74,7 +74,7 @@ const NumberStatus = () => {
         <h4 className="text-2xl font-semibold text-white">$3.456K</h4>
         <div className="mt-4 flex items-end justify-between">
           <span className="text-md text-gray-300 font-bold">Total views</span>
-          <span className=" flex items-center gap-1 text-md font-semibold text-green-500">
+          <span className=" flex items-center gap-1 text-md font-semibold text-green-200">
             0.43% <BsArrowUp />
           </span>
         </div>
@@ -88,7 +88,7 @@ const NumberStatus = () => {
         <h4 className="text-2xl font-semibold text-white">$45,2k</h4>
         <div className="mt-4 flex items-end justify-between">
           <span className="text-md text-gray-300 font-bold">Total Profit</span>
-          <span className=" flex items-center gap-1 text-md font-semibold text-green-500">
+          <span className=" flex items-center gap-1 text-md font-semibold text-green-200">
             4.35% <BsArrowUp />
           </span>
         </div>
@@ -102,7 +102,7 @@ const NumberStatus = () => {
         <h4 className="text-2xl font-semibold text-white">2,450</h4>
         <div className="mt-4 flex items-end justify-between">
           <span className="text-md text-gray-300 font-bold">Total Product</span>
-          <span className=" flex items-center gap-1 text-md font-semibold text-green-500">
+          <span className=" flex items-center gap-1 text-md font-semibold text-green-200">
             2.59% <BsArrowUp />
           </span>
         </div>
@@ -118,7 +118,7 @@ const NumberStatus = () => {
           <span className="text-md text-gray-300 font-bold">
             Total Students
           </span>
-          <span className=" flex items-center gap-1 text-md font-semibold text-red-500">
+          <span className=" flex items-center gap-1 text-md font-semibold text-red-300">
             0.95% <BsArrowDown />
           </span>
         </div>
