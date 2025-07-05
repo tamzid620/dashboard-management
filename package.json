@@ -23,6 +23,7 @@
     "apexcharts": "^3.44.0",
     "axios": "^1.6.0",
     "flowbite": "^1.8.1",
+    "latest": "^0.2.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "material-ui-popup-state": "^5.0.10",

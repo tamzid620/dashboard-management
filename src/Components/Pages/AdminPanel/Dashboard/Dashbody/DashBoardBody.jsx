@@ -6,16 +6,16 @@ import Transaction from "../Transaction/Transaction";
 
 const DashBoardBody = () => {
   return (
-    <div className="text-white  mt-10 ps-2 2xl:max-w-full xl:max-w-full lg:max-w-full md:max-w-full sm: max-w-sm md:ms-0 sm: -ms-9">
+    <div className="text-white mt-10 ps-2 lg:max-w-7xl md:max-w-3xl max-w-sm  mx-auto flex justify-center">
       {/* rest of the body  */}
       <div>
-        <div className="mb-16"><NumberStatus /></div>
+        <NumberStatus />
         <div className="grid lg:grid-cols-2 md:grid-cols-2 sm: grid-cols-1 gap-5 mx-3 mb-16">
-          <div className=""><Transaction /></div>
-          <div className=""><EventList /></div>
+          <Transaction />
+          <EventList />
         </div>
-        <div className=" mb-16"><AmountSecion /></div>
-        <div className=" mb-16"><PaymentStatus1 /></div>
+        <AmountSecion />
+        <PaymentStatus1 />
       </div>
     </div>
   );

@@ -192,7 +192,7 @@ export default function AdminDrawer() {
         <List>
           {/* Dashboard section  */}
           <ListItem disablePadding sx={{ display: "block" }}>
-            <ListItemButton to="/dp">
+            <ListItemButton to="/">
               <ListItemIcon style={{ color: "black" }}>
                 <DoubleArrowIcon />
               </ListItemIcon>
@@ -202,7 +202,7 @@ export default function AdminDrawer() {
           <Divider />
 
           {/* Student Information section  */}
-          <PopupState variant="popover" popupId="demo-popup-menu">
+          {/* <PopupState variant="popover" popupId="demo-popup-menu">
             {(popupState) => (
               <React.Fragment>
                 <List
@@ -226,6 +226,17 @@ export default function AdminDrawer() {
               </React.Fragment>
             )}
           </PopupState>
+          <Divider /> */}
+
+          {/* Student section */}
+          <ListItem disablePadding sx={{ display: "block" }}>
+            <ListItemButton to="/allStudent">
+              <ListItemIcon style={{ color: "black" }}>
+                <DoubleArrowIcon />
+              </ListItemIcon>
+              <ListItemText primary="Student" />
+            </ListItemButton>
+          </ListItem>
           <Divider />
 
           {/* Teachers section */}

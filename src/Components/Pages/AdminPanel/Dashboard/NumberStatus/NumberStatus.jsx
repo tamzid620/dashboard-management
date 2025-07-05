@@ -62,11 +62,11 @@ const NumberStatus = () => {
   return (
     <div
       className="
-        grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-10 mx-5"
+        grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 mx-auto mb-16   md:ms-0  ms-[90px]"
     >
       {/* ----------------------Number Status ------------------------- */}
       {/* cart-One  */}
-      <div className=" rounded-xl  shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
+      <div className="max-w-sm rounded-md shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
         <div className="flex mb-3 h-11 w-11 items-center justify-center rounded-full text-blue-900 bg-white">
           <FaRegEye />
         </div>
@@ -80,7 +80,7 @@ const NumberStatus = () => {
         </div>
       </div>
       {/* cart-two  */}
-      <div className=" rounded-xl  shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
+      <div className="max-w-sm rounded-md shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
         <div className="flex mb-3 h-11 w-11 items-center justify-center rounded-full text-blue-900 bg-white">
           <FaShoppingCart />
         </div>
@@ -94,7 +94,7 @@ const NumberStatus = () => {
         </div>
       </div>
       {/* cart-three  */}
-      <div className=" rounded-xl  shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
+      <div className="max-w-sm rounded-md shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
         <div className="flex mb-3 h-11 w-11 items-center justify-center rounded-full text-blue-900 bg-white">
           <FaShoppingBag />
         </div>
@@ -108,7 +108,7 @@ const NumberStatus = () => {
         </div>
       </div>
       {/* cart-four  */}
-      <div className=" rounded-xl  shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
+      <div className="max-w-sm rounded-md shadow-md shadow-black  bg-blue-900 text-white py-6 px-6">
         <div className="flex mb-3 h-11 w-11 items-center justify-center rounded-full text-blue-900 bg-white">
           <FaUserFriends />
         </div>

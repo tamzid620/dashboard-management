@@ -5,7 +5,7 @@ const PaymentStatus1 = () => {
 
   return (
     <div className=" border shadow-md shadow-gray-800
-    rounded-xl overflow-x-auto bg-blue-900 mx-5">
+    rounded-xl overflow-x-auto bg-blue-900 mx-auto mb-16">
       <div
         className=" col-12  rounded-xl p-3 b "
         role="region"
