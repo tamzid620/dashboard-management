@@ -15,10 +15,9 @@ const Syllabus = () => {
         setSyllabuss(res.data.syllabus);
       })
       .catch((error) => {
-        console.error("An error occurred:", error);
+        return error
       });
   }, []);
-  // console.log(syllabuss);
 
   // pdf section 
   const handlePdfDownload = (pdflink) => {

@@ -10,7 +10,7 @@ const EnterPhone = () => {
     };
   
     const handleSubmit = () => {
-      // console.log(phoneNumber);
+    
     };
 
     return (

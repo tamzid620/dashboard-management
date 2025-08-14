@@ -15,10 +15,9 @@ const Routine = () => {
         setRoutines(res.data.routine);
       })
       .catch((error) => {
-        console.error("An error occurred:", error);
+        return error
       });
   }, []);
-  // console.log(routines);
 
     // pdf section 
     const handlePdfDownload = (pdflink) => {

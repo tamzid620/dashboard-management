@@ -71,8 +71,7 @@ const AdminNoticesAdd = () => {
     data.append("subject", subject);
     data.append("description", description);
     data.append("pdf", pdf);
-    // console.log(data);
-    // console.log("Selected pdf:", pdf);
+    
     // post method --------------
 
     setIsLoading(true);
@@ -81,7 +80,7 @@ const AdminNoticesAdd = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+       
         // to refresh to form ---------------
         setTitle("");
         setSubject("");

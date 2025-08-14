@@ -45,17 +45,7 @@ const SignUP = () => {
 
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
-    // const image = e.target.files[0];
-    // if (image) {
-    //   console.log("Selected Image:", image)
-    //   const reader = new FileReader();
-
-    //   reader.onload = (e) => {
-    //     const imagePreviewURL = e.target.result;
-    //     setImage(imagePreviewURL);
-    //   };
-    //   reader.readAsDataURL(image);
-    // }
+  
   };
 
   const handlephoneNoChange = (e) => {
@@ -75,8 +65,7 @@ const SignUP = () => {
     data.append("password", password);
     data.append("phoneNo", phoneNo);
     data.append("image", image);
-    // console.log(data);
-    // console.log("Selected Image:", image);
+   
     const headers = {
       'Content-Type': 'multipart/form-data'
     };
@@ -85,7 +74,7 @@ const SignUP = () => {
       headers: headers,
     })
       .then((res) => {
-        // console.log('Data:', res.data);
+        
         Swal.fire({
           position: 'center',
           icon: 'warning',
@@ -96,16 +85,9 @@ const SignUP = () => {
         navigate('/');
       })
       .catch((error) => {
-        console.error('An error occurred:', error);
+       return error
       });
-    // setName('');
-    // setfatherName('');
-    // setmotherName('');
-    // setBirthDate('');
-    // setEmail('');
-    // setPassword('');
-    // setphoneNo('');
-    // setImage('');
+    
   };
 
   const backgroundStyles = {

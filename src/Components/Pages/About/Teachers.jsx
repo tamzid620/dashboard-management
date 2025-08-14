@@ -15,11 +15,10 @@ const Teachers = () => {
         setTeachers(res.data.teacher);
       })
       .catch((error) => {
-        console.error("An error occurred:", error);
+        return error
       });
   }, []);
 
-  // console.log(teachers);
 
   return (
     <div>

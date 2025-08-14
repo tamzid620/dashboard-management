@@ -50,11 +50,11 @@ const StudentDetails = () => {
           }
         })
         .catch((error) => {
-          console.log(error);
+          return error
         });
     }
   }, [navigate]);
-  // console.log(studentData);
+  
   
 
   const logoutSubmit = (e) => {

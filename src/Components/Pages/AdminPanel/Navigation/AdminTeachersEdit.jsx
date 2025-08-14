@@ -82,7 +82,7 @@ const AdminTeachersEdit = () => {
         setIsLoading(false);
       })
       .catch((error) => {
-        console.log(error);
+       return error
       });
   }, [teacherId]);
 
@@ -103,8 +103,7 @@ const AdminTeachersEdit = () => {
     data.append("email", email);
     data.append("phoneNo", phoneNo);
     data.append("image", image);
-    // console.log(data);
-    // console.log("Selected Image:", image);
+    
     // post method --------------
     setIsLoading(true);
     axios
@@ -112,7 +111,7 @@ const AdminTeachersEdit = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+       
         // to refresh to form ---------------
         setid("");
         setName("");

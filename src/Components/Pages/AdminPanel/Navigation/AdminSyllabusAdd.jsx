@@ -70,8 +70,7 @@ const AdminSyllabusAdd = () => {
     data.append("subject", subject);
     data.append("wClass", wClass);
     data.append("pdf", pdf);
-    // console.log(data);
-    // console.log("Selected pdf:", pdf);
+    
     // post method --------------
 
     setIsLoading(true);
@@ -80,7 +79,7 @@ const AdminSyllabusAdd = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+        
         // to refresh to form ---------------
         setTitle("");
         setSubject("");

@@ -51,7 +51,7 @@ setIsLoading(true);
     }
   }, [navigate]);
 
-  // console.log(adminRoutines.routine);
+  
 
   // delete section
   const handleDelete = (routineId) => {

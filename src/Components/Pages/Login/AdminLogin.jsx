@@ -44,7 +44,7 @@ function AdminLogin() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Email:", email, "Password:", password);
+    
     setIsLoading(true);
     axios
       .post(baseUrl("login"), data)

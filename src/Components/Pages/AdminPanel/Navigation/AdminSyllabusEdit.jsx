@@ -63,7 +63,7 @@ const AdminSyllabusEdit = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+       return error
         });
     }, [syllabusId]);
   
@@ -82,8 +82,7 @@ const AdminSyllabusEdit = () => {
       data.append("subject", subject);
       data.append("wClass", wClass);
       data.append("pdf", pdf);
-      // console.log(data);
-      // console.log("Selected pdf:", pdf);
+    
       // post method --------------
 
       setIsLoading(true);
@@ -92,7 +91,7 @@ const AdminSyllabusEdit = () => {
           headers: headers,
         })
         .then((res) => {
-          // console.log("Data:", res.data);
+          
           // to refresh to form ---------------
           setid("");
           setTitle("");

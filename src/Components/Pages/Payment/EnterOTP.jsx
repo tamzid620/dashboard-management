@@ -10,7 +10,7 @@ const EnterOTP = () => {
     };
   
     const handleSubmit = () => {
-      // console.log(phoneNumber);
+      
     };
 
     return (

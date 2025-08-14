@@ -45,7 +45,6 @@ const AllStudent = () => {
         });
     }
   }, [navigate]);
-  // console.log(allStudents.student);
 
   // delete section
   const handleDelete = (studentId) => {
@@ -176,17 +175,11 @@ const AllStudent = () => {
                           <td className="flex gap-2">
                             {/* Edit button  */}
                             <Link to={`/allStudentEdit/${student.id}`}>
-                              <button
-                                className="editButton"
-                              >
-                                Edit
-                              </button>
+                              <button className="editButton">Edit</button>
                             </Link>
                             {/* Details button  */}
                             <Link to={`/adminPayment/${student.id}`}>
-                              <button
-                                className="detailstButton"
-                              >
+                              <button className="detailstButton">
                                 Details
                               </button>
                             </Link>

@@ -39,7 +39,7 @@ const PaymentHistory = () => {
         setPaymentHistoryData(error);
       });
   }, [studentId]);
-  // console.log(paymentHistoryData);
+  
   
 
   return (

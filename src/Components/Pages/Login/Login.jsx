@@ -42,7 +42,7 @@ const data = { email, password }
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  // console.log('Email:', email, 'Password:', password);
+  
   axios.post(baseUrl("login"), data)
   .then(res => {
       if (res.data.status === "201" ) {

@@ -41,11 +41,10 @@ const PendingPayment = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+         return error
         });
     }
   }, [navigate]);
-  // console.log(pendPayments.payment);
 
   // approval section
   const handleApprove = (paymentId) => {

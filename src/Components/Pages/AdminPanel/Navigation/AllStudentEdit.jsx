@@ -106,15 +106,14 @@ const AllStudentEdit = () => {
       data.append("regNo", regNo);
       data.append("wclass", wclass);
       data.append("section", section);
-      // console.log(data);
-      // console.log("Selected Image:", image);
+      
       setIsLoading(true);
       axios
         .post(baseUrl("student-update"), data, {
           headers: headers,
         })
         .then((res) => {
-          // console.log("Data:", res.data);
+          
           setid("");
           setName("");
           setfatherName("");
@@ -180,7 +179,7 @@ const AllStudentEdit = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+         return error
         });
     
     }, [studentId]); 

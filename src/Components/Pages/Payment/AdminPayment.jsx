@@ -38,7 +38,6 @@ const AdminPayment = () => {
         setStudentData(error);
       });
   }, [studentId]);
-  // console.log(studentData);
 
   return (
     <>

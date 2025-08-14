@@ -29,8 +29,7 @@ const Payment = () => {
     setTotalAmount(calculatedTotalAmount);
   };
   // const onSubmit = (data) => {
-  //   console.log(data);
-  //   console.log(selectedMonths);
+  
   // };
   const handleMonthChange = (event) => {
     setSelectedMonths(event);
@@ -38,8 +37,7 @@ const Payment = () => {
   };
 
   const onSubmit = (data) => {
-    // console.log(data);
-    // console.log(selectedMonths);
+   
   };
 
 

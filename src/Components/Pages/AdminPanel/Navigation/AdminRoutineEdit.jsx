@@ -63,7 +63,7 @@ const AdminRoutineEdit = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+          return error
         });
     }, [routineId]);
   
@@ -82,8 +82,7 @@ const AdminRoutineEdit = () => {
       data.append("wClass", wClass);
       data.append("section", section);
       data.append("pdf", pdf);
-      // console.log(data);
-      // console.log("Selected pdf:", pdf);
+      
       // post method --------------
       setIsLoading(true);
       axios
@@ -91,7 +90,7 @@ const AdminRoutineEdit = () => {
           headers: headers,
         })
         .then((res) => {
-          // console.log("Data:", res.data);
+        
           // to refresh to form ---------------
           setid("");
           setTitle("");

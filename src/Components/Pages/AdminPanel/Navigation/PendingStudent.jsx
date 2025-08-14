@@ -41,7 +41,7 @@ const PendingStudent = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+         return error
         });
     }
   }, [navigate]);

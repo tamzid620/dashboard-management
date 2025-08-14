@@ -52,7 +52,6 @@ const AdminTeachers = () => {
     }
   }, [navigate]);
 
-  // console.log(adminTeachers);
 
   // delete section
   const handleDelete = (teacherId) => {

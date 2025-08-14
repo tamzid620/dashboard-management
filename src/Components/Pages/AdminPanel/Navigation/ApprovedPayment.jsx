@@ -44,11 +44,11 @@ const ApprovedPayment = () => {
           setIsLoading(false);
         })
         .catch((error) => {
-          console.log(error);
+          return error
         });
     }
   }, [navigate]);
-  // console.log(apprPayments);
+ 
 
   // approval section
   // const handleDetail = (paymentId) => {

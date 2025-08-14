@@ -60,7 +60,7 @@ const TrialSignUp = () => {
     data.append('password', password);
     data.append('phoneNo', phoneNo);
     data.append('image', image);
-    // console.log(data);
+    
     
     axios.post(baseUrl("student-reg"), data, {
       headers: {
@@ -68,7 +68,7 @@ const TrialSignUp = () => {
       },
     })
     .then((res) => {
-      // console.log('Data:', res.data);
+     
       Swal.fire({
         position: 'center',
         icon: 'warning',
@@ -79,7 +79,7 @@ const TrialSignUp = () => {
       navigate('/');
     })
     .catch((error) => {
-      console.error('An error occurred:', error);
+    return error
     });
   };
 

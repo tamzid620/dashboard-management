@@ -83,8 +83,7 @@ const AdminTeachersAdd = () => {
     data.append("email", email);
     data.append("phoneNo", phoneNo);
     data.append("image", image);
-    // console.log(data);
-    // console.log("Selected Image:", image);
+   
     // post method --------------
     setIsLoading(true);
     axios
@@ -92,7 +91,7 @@ const AdminTeachersAdd = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+        
         // to refresh to form ---------------
         setid("");
         setName("");

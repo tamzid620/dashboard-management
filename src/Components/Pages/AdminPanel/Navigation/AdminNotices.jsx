@@ -51,7 +51,6 @@ const AdminNotices = () => {
     }
   }, [navigate]);
 
-  // console.log(adminNotices.notice);
 
   // delete section
   const handleDelete = (noticeId) => {

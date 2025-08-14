@@ -116,8 +116,7 @@ const AdminStudentAdd = () => {
     data.append("regNo", regNo);
     data.append("wclass", wclass);
     data.append("section", section);
-    // console.log(data);
-    // console.log("Selected Image:", image);
+    
 
     // post method --------------
     setIsLoading(true);
@@ -126,7 +125,7 @@ const AdminStudentAdd = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+       
         // to refresh to form ---------------
         setid("");
         setName("");

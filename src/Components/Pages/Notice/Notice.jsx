@@ -14,10 +14,10 @@ const Notice = () => {
         setNotices(res.data.notice);
       })
       .catch((error) => {
-        console.error("An error occurred:", error);
+        
       });
   }, []);
-  // console.log(notices);
+  
 
   // pdf section 
   const handlePdfDownload = (pdflink) => {

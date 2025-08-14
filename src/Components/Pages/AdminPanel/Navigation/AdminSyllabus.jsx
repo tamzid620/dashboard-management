@@ -51,7 +51,7 @@ setIsLoading(true);
     }
   }, [navigate]);
 
-  // console.log(adminSyllabuss.syllabus);
+
 
   // delete section
   const handleDelete = (syllabusId) => {

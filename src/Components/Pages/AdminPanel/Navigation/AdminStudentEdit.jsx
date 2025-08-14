@@ -105,7 +105,7 @@ const AdminStudentEdit = () => {
         setIsLoading(false);
       })
       .catch((error) => {
-        console.log(error);
+        return error
       });
   }, [studentId]);
 
@@ -132,8 +132,7 @@ const AdminStudentEdit = () => {
     data.append("regNo", regNo);
     data.append("wclass", wclass);
     data.append("section", section);
-    // console.log(data);
-    // console.log("Selected Image:", image);
+    
     // post method --------------
     setIsLoading(true);
     axios
@@ -141,7 +140,7 @@ const AdminStudentEdit = () => {
         headers: headers,
       })
       .then((res) => {
-        // console.log("Data:", res.data);
+        
         // to refresh to form ---------------
         setid("");
         setName("");

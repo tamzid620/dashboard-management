@@ -34,10 +34,9 @@ const Invoice = () => {
   //       setIsLoading(false);
   //     })
   //     .catch((error) => {
-  //       console.error("Error:", error);
+  //     
   //     });
   // }, [paymentId]);
-  // console.log(paymentDetails);
 
 
   return (
